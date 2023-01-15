@@ -1,0 +1,44 @@
+body{
+  margin-left: 40%;
+  background-color:whitesmoke;
+}
+.box{
+  box-sizing: border-box;
+  border-radius: 5%;
+  box-shadow: inset 5px 10px 15px 15px rgba(47,79,79,1),inset -5px -10px 15px 15px rgba(47,79,79,1);
+  background-color:rgba(47,79,79,.8) ;
+  width: 320px;
+  height: 200px;
+  padding: 15px;
+}
+.screen{
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.8);
+  color: lightblue;
+  border-color: black;
+  height: 50px;
+  width: 250px;
+  padding: 5px;
+  margin-left: 11px;
+  text-align: center;
+  font-size: 2rem;
+}
+.btn-box{
+  display: inline-block;
+  padding:40px 20px;
+}
+.btn{
+  width: 70px;
+  padding: 8px;
+  margin-right: 8px;
+  background-color:rgba(0,0,0,0.9);
+  color: white;
+  box-sizing: border-box;
+  border-radius: 10%;
+  font-size: 1.1rem;
+}
+.text{
+  text-align: center;
+  font-style: lucida, italic;
+}
